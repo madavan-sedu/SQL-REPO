@@ -1,0 +1,8 @@
+CREATE TABLE S (
+    ID INT IDENTITY(1,1) PRIMARY KEY, 
+    Name VARCHAR(100),
+    Email VARCHAR(100) UNIQUE,
+    PassportNumber VARCHAR(20) UNIQUE,
+    DateOfBirth DATE,
+    Address VARCHAR(255)
+);

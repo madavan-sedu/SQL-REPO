@@ -1,0 +1,2 @@
+DELETE FROM SM
+WHERE DateOfBirth < '1990-01-01';
