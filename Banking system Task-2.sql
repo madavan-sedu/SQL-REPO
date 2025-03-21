@@ -79,4 +79,4 @@ WHERE balance < 500;
 
 SELECT * 
 FROM Customers 
-WHERE address NOT LIKE '%Shastri Nagar%';
+WHERE address NOT LIKE '%ShastriÂ Nagar%';
