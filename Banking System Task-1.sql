@@ -12,7 +12,6 @@ CREATE TABLE Customers (
     email VARCHAR(100) UNIQUE NOT NULL,             -- Customer's email (unique constraint)
     phone_number VARCHAR(15),                       -- Customer's phone number
     address TEXT
-	city   TEXT
 );
 -- step 4: Create the 'accounts' table
 CREATE TABLE Accounts (
